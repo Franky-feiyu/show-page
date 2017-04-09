@@ -10,7 +10,7 @@ body{
 	padding: 30px;
 	text-align: center;;
 }
-a{
+div a{
 	text-decoration: none;
 	display: inline-block;
 	text-align: center;
@@ -38,12 +38,13 @@ a{
 	color: rgb(135,150,142);
 	margin: 20px 0;
 }
-.author span{
+.author a{
 	color: rgb(114,184,144);
+	text-decoration: none;
 }
 .select-btn :first-child{
 	opacity: 0.5;
 }
-a:hover{
+div a:hover{
 	opacity: 0.8;
 }
