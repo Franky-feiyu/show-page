@@ -1,0 +1,49 @@
+/*reset*/
+body,h1,p,div,input,img{
+	margin: 0;
+	padding: 0;
+}
+/*common-syle*/
+body{
+	font-family: '黑体';
+	background: rgb(255,242,227);
+	padding: 30px;
+	text-align: center;;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 3px 7px;
+	border-radius: 3px;
+	background: rgb(114,184,144);
+	color: #fff;
+	margin: 0 5px;
+}
+.info,
+.author,
+.select-btn,
+.tool-btn{
+	margin: 30px 0;
+}
+.info,
+.author{
+	color: rgb(183,187,179);
+}
+
+
+
+.title{
+	font-weight: bolder;
+	color: rgb(135,150,142);
+	margin: 20px 0;
+}
+.author span{
+	color: rgb(114,184,144);
+}
+.select-btn :first-child{
+	opacity: 0.5;
+}
+a:hover{
+	opacity: 0.8;
+}
